@@ -13,16 +13,16 @@ const Links = () => {
 
   return (
     <div>
-      <IconButton style={{padding: 0}}>
+      <IconButton style={{ padding: 0 }}>
         <LinkedInIcon onClick={() => window.open(linkedInLink, "_blank")} />
       </IconButton>
-      <IconButton style={{padding: 0}}>
+      <IconButton style={{ padding: 0 }}>
         <GitHub onClick={() => window.open(gitHubLink, "_blank")} />
       </IconButton>
-      <IconButton style={{padding: 0}}>
+      <IconButton style={{ padding: 0 }}>
         <Book onClick={() => window.open(scalerPortal, "_blank")} />
       </IconButton>
-      <IconButton style={{padding: 0}}>
+      <IconButton style={{ padding: 0 }}>
         <Code onClick={() => window.open(leetCodePortal, "_blank")} />
       </IconButton>
     </div>

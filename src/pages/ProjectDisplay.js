@@ -13,19 +13,14 @@ const ProjectDisplay = () => {
     <div className="project">
       <div className="project-inner">
         <h1>{project.name}</h1>
-        <a href={project.link} target="_blank">
+        <a href={project.link} target="_blank" rel="noreferrer">
           <div className="project-img">
-            <img
-              src={project.image}
-              alt={project.name}
-            />
+            <img src={project.image} alt={project.name} />
           </div>
         </a>
 
         <div className="project-skills">
-
           <b>Skills Used : </b> {project.skills}
-
         </div>
         <IconButton>
           <GitHub onClick={() => window.open(project.github, "_blank")} />
