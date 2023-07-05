@@ -2,6 +2,7 @@ import React from "react";
 import { GitHub } from "@material-ui/icons";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
+import { IconButton } from "@material-ui/core";
 import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {
@@ -11,11 +12,20 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <img src={project.image} alt={project.name} />
+      <IconButton>
+        <img
+          src={project.image}
+          alt={project.name}
+          onClick={() => window.open(project.link, "_blank")}
+        />
+      </IconButton>
+
       <p>
         <b>Skills Used : </b> {project.skills}
       </p>
-      <GitHub />
+      <IconButton>
+        <GitHub onClick={() => window.open(project.github, "_blank")} />
+      </IconButton>
     </div>
   );
 };
