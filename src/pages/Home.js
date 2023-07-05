@@ -1,12 +1,16 @@
 import React from "react";
 
 import "../styles/Home.css";
+import daveImg from "../assets/dave.png";
 import Links from "../components/Links";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="about">
+        <div className="dave-img">
+          <img src={daveImg} alt="" />
+        </div>
         <h2>Hi, My Name is Davinder</h2>
         <div className="prompt">
           <p>

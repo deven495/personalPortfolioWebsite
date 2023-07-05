@@ -3,9 +3,9 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #3e497a;
-  }
-  
-  .about {
+}
+
+.about {
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
@@ -15,66 +15,103 @@
     text-align: center;
     background-color: #21325e;
     color: #f0f0f0;
-  }
-  
-  .about h2 {
+}
+
+.about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
     color: #e9d35b;
     height: 50px;
-  }
-  
-  .about .prompt {
-    width: 40%;
+}
+
+.dave-img {
+    width: 250px;
+}
+
+.dave-img img {
+    width: 100%;
+    display: block;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about .prompt {
+    width: 60%;
     font-size: 30px;
-  }
-  .prompt svg {
+}
+
+.prompt svg {
     font-size: 60px;
     margin: 5px;
     color: white;
-  }
-  
-  .skills {
+}
+
+.skills {
     font-size: 35px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .skills h1 {
+}
+
+.skills h1 {
     color: #3e497a;
-  }
-  
-  .skills .list {
+}
+
+.skills .list {
     list-style: none;
     width: 60%;
-  }
-  
-  .list span {
+}
+
+.list span {
     font-size: 20px;
-  }
-  
-  @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 951px) {
+    .dave-img {
+        margin-bottom: -50px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
     .about h2 {
-      font-size: 40px;
+        font-size: 60px;
     }
-  
+
     .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
+        width: 80%;
     }
-  
+}
+
+@media only screen and (max-width: 750px) {
+    .about h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+
     .skills {
-      text-align: center;
+        text-align: center;
     }
+
     .list {
-      padding: 0;
+        padding: 0;
     }
-  
+
     .skills h2 {
-      font-size: 30px;
+        font-size: 30px;
     }
-  }
+}

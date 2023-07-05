@@ -11,21 +11,26 @@ const ProjectDisplay = () => {
 
   return (
     <div className="project">
-      <h1>{project.name}</h1>
-      <IconButton>
-        <img
-          src={project.image}
-          alt={project.name}
-          onClick={() => window.open(project.link, "_blank")}
-        />
-      </IconButton>
+      <div className="project-inner">
+        <h1>{project.name}</h1>
+        <a href={project.link} target="_blank">
+          <div className="project-img">
+            <img
+              src={project.image}
+              alt={project.name}
+            />
+          </div>
+        </a>
 
-      <p>
-        <b>Skills Used : </b> {project.skills}
-      </p>
-      <IconButton>
-        <GitHub onClick={() => window.open(project.github, "_blank")} />
-      </IconButton>
+        <div className="project-skills">
+
+          <b>Skills Used : </b> {project.skills}
+
+        </div>
+        <IconButton>
+          <GitHub onClick={() => window.open(project.github, "_blank")} />
+        </IconButton>
+      </div>
     </div>
   );
 };
