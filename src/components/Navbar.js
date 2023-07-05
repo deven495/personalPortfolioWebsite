@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
 
@@ -23,15 +23,21 @@ const Navbar = () => {
       </div>
       <div className="links">
         <NavLink
-          className={({ isActive }) => isActive ? 'navLinkActive' : ''} to="/">
+          className={({ isActive }) => (isActive ? "navLinkActive" : "")}
+          to="/"
+        >
           Home
         </NavLink>
         <NavLink
-          className={({ isActive }) => isActive ? 'navLinkActive' : ''} to="/projects">
+          className={({ isActive }) => (isActive ? "navLinkActive" : "")}
+          to="/projects"
+        >
           Projects
         </NavLink>
         <NavLink
-          className={({ isActive }) => isActive ? 'navLinkActive' : ''} to="/experience">
+          className={({ isActive }) => (isActive ? "navLinkActive" : "")}
+          to="/experience"
+        >
           Experience
         </NavLink>
       </div>
