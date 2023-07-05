@@ -1,33 +1,39 @@
-import img1 from "../assets/proj1.jpg";
-import img2 from "../assets/proj2.jpg";
-import img3 from "../assets/proj3.webp";
-import img4 from "../assets/proj4.webp";
-import img5 from "../assets/proj5.jpg";
-import img6 from "../assets/proj6.png";
+import Proj1 from "../assets/proj1.jpg";
+import Proj2 from "../assets/proj2.jpg";
+import Proj3 from "../assets/proj3.webp";
+import Proj4 from "../assets/proj4.webp";
+import Proj5 from "../assets/proj5.jpg";
+import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Project1",
-    image: img1,
+    name: "Dijkstra Algorithm Visualizer",
+    image: Proj1,
+    skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Project2",
-    image: img2,
+    name: "Ecommerce Website",
+    image: Proj2,
+    skills: "React,Node.js,MongoDB",
   },
   {
-    name: "Project3",
-    image: img3,
+    name: "Spotify Clone",
+    image: Proj3,
+    skills: "React,Node.js,MongoDB,SpotifyAPI",
   },
   {
-    name: "Project4",
-    image: img4,
+    name: "Social Media Website",
+    image: Proj4,
+    skills: "React,Node.js,MySQL,GraphQL",
   },
   {
-    name: "Project5",
-    image: img5,
+    name: "Dashboard Visualizer",
+    image: Proj5,
+    skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Project6",
-    image: img6,
+    name: "Mobile Game",
+    image: Proj6,
+    skills: "React Native,JavaScript,HTML,CSS",
   },
 ];
