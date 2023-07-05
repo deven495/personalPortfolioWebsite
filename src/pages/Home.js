@@ -9,7 +9,11 @@ const Home = () => {
       <div className="about">
         <h2>Hi, My Name is Davinder</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating</p>
+          <p>
+            A software developer with a passion for learning and Solving Real
+            World Problems through Code
+          </p>
+          <p>Solved 1400+ Leetcode problems</p>
           <Links />
         </div>
       </div>
@@ -20,12 +24,15 @@ const Home = () => {
             <h2> Front-End</h2>
             <span>
               ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn,
-              TailwindCSS, StyledComponents
+              TailwindCSS, StyledComponents.
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, Java, ExpressJS, MySQL, MongoDB</span>
+            <span>
+              NodeJS, Java, ExpressJS, MySQL, MongoDB, Design Patterns, Schema
+              Designing, System Designs.
+            </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
