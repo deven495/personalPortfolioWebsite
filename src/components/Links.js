@@ -3,7 +3,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHub from "@material-ui/icons/GitHub";
 import Book from "@material-ui/icons/Book";
 import Code from "@material-ui/icons/Code";
-
 import { IconButton } from "@material-ui/core";
 
 const Links = () => {
@@ -11,6 +10,7 @@ const Links = () => {
   const linkedInLink = "https://www.linkedin.com/in/davinder495/";
   const scalerPortal = "https://www.scaler.com/academy/profile/cf4169f8aaa5/";
   const leetCodePortal = "https://leetcode.com/Davinder8289/";
+
   return (
     <div>
       <IconButton>

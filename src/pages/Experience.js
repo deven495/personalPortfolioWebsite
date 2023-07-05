@@ -18,7 +18,7 @@ const Experience = () => {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Kendriya Vidyalaya No 1, Bathinda Cantt
+            Kendriya Vidyalaya No 1, Bathinda Cantt, Punjab
           </h3>
 
           <p>High School</p>
@@ -30,7 +30,8 @@ const Experience = () => {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Dr. B.R. Ambedkar National Institute of Technology, Jalandhar
+            Dr. B.R. Ambedkar National Institute of Technology, Jalandhar,
+            Punjab, India
           </h3>
 
           <h4 className="vertical-timeline-element-subtitle">
@@ -41,32 +42,18 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2017-2018"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Quality Assurance Engineer
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Kisco pvt ltd, Chandigarh
-          </h4>
-          <p>Developed the backend infrastructure</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
           date="2018-present"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">SWO - Analyst</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Canara,Chandigarh
+            Canara, Chandigarh
           </h4>
           <p>
-            Helped the team to launch 2 major features by working both in the
-            front end and back end.
+            As a team manager I am working as a line of communication between
+            frontline staff and senior management with a variety of people, from
+            entry-level employees to heads of departments.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
