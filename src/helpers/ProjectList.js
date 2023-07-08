@@ -3,6 +3,7 @@ import Proj2 from "../assets/proj2.png";
 import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.png";
+import Proj6 from "../assets/proj5.png";
 
 export const ProjectList = [
   {
@@ -32,6 +33,13 @@ export const ProjectList = [
     skills: "JavaScript,html,css",
     link: "https://pig-game-v2.netlify.app/",
     github: "https://github.com/Dave8289/PigGame",
+  },
+  {
+    name: "MyMovieRecommendations App",
+    image: Proj6,
+    skills: "React,Firebase,Fetch,JavaScript,html,css",
+    link: "https://mymovierecommendations-dave.netlify.app/",
+    github: "https://github.com/Dave8289/movieRecommendations",
   },
   {
     name: "DataEntry App",
