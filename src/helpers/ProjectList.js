@@ -4,6 +4,7 @@ import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.png";
 import Proj6 from "../assets/proj6.png";
+import Proj7 from "../assets/proj7.png";
 
 export const ProjectList = [
   {
@@ -12,6 +13,13 @@ export const ProjectList = [
     skills: "React,JavaScript,html,css",
     link: "https://tastybites-dv.netlify.app",
     github: "https://github.com/Dave8289/TastyBites",
+  },
+  {
+    name: "Weather App",
+    image: Proj7,
+    skills: "React,JavaScript,html,css,Animations",
+    link: "https://weatherapp-dave.netlify.app/",
+    github: "https://github.com/Dave8289/WeatherApp",
   },
   {
     name: "ExpenseTracker App",
